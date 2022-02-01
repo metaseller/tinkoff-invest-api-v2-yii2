@@ -1,0 +1,34 @@
+{
+    "name": "metaseller/tinkoff-invest-api-v2-yii2",
+    "version": "0.1.1",
+    "description": "Yii2 framework wrapper for unofficial PHP SDK for Tinkoff Invest API v2",
+    "type": "library",
+    "license": "Apache-2.0",
+    "keywords": [
+        "php",
+        "tinkoff",
+        "invest api",
+        "Yii2 framework",
+        "Yii2 wrapper",
+        "yii2"
+    ],
+    "homepage": "https://github.com/metaseller/tinkoff-invest-api-v2-yii2",
+    "authors": [
+        {
+            "name": "Igor Frolenkov",
+            "email": "igor@frolenkov.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0",
+        "ext-grpc": "^1.43",
+        "yiisoft/yii2": "^2.0",
+        "metaseller/tinkoff-invest-api-v2-php": ">=0.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Metaseller\\yii2TinkoffInvestApi2\\": "src"
+        }
+    }
+}
