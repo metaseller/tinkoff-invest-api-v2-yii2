@@ -7,7 +7,14 @@ Yii2 wrapper for unofficial PHP SDK for Tinkoff Invest API v2
 ------------
 Самый оптимальный способ установки - это использование [composer](http://getcomposer.org/download/).
 
-Для установки выполните
+Если вы ранее уже ранее устанавливали в своем проекте [metaseller/tinkoff-invest-api-v2-php](https://packagist.org/packages/metaseller/tinkoff-invest-api-v2-php) через Composer, то для начала стоит выполнить
+ ```
+ $ php composer.phar remove metaseller/tinkoff-invest-api-v2-php
+ ```
+
+Если нет - пропустите этот шаг.
+
+Далее для установки выполните
  ```
  $ php composer.phar require metaseller/tinkoff-invest-api-v2-yii2:*
  ```
