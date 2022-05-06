@@ -23,6 +23,13 @@ class TinkoffInvestApi extends TinkoffClientsFactory implements Configurable
     public $apiToken;
 
     /**
+     * @var string|null Значение AppName для запросов к Tinkoff Invest API 2
+     *
+     * @see https://tinkoff.github.io/investAPI/grpc/#appname
+     */
+    public $appName = null;
+
+    /**
      * @inheritDoc
      */
     public function __construct($config = [])
@@ -31,6 +38,6 @@ class TinkoffInvestApi extends TinkoffClientsFactory implements Configurable
             Yii::configure($this, $config);
         }
 
-        parent::__construct($this->apiToken);
+        parent::__construct($this->apiToken, $this->appName);
     }
 }
