@@ -1,6 +1,6 @@
 {
     "name": "metaseller/tinkoff-invest-api-v2-yii2",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "Yii2 framework wrapper for unofficial PHP SDK for Tinkoff Invest API v2",
     "type": "library",
     "license": "Apache-2.0",
@@ -24,7 +24,7 @@
         "php": ">=7.1.0",
         "ext-grpc": "^1.43",
         "yiisoft/yii2": "^2.0",
-        "metaseller/tinkoff-invest-api-v2-php": ">=0.3.6"
+        "metaseller/tinkoff-invest-api-v2-php": ">=0.4.1"
     },
     "autoload": {
         "psr-4": {
