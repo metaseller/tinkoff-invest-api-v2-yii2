@@ -24,7 +24,7 @@
         "php": ">=7.1.0",
         "ext-grpc": "^1.43",
         "yiisoft/yii2": "^2.0",
-        "metaseller/tinkoff-invest-api-v2-php": ">=0.4.15"
+        "metaseller/tinkoff-invest-api-v2-php": ">=0.4.17"
     },
     "autoload": {
         "psr-4": {
