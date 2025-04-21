@@ -1,6 +1,6 @@
 {
     "name": "metaseller/tinkoff-invest-api-v2-yii2",
-    "version": "0.1.16",
+    "version": "0.1.17",
     "description": "Yii2 framework wrapper for unofficial PHP SDK for Tinkoff Invest API v2",
     "type": "library",
     "license": "Apache-2.0",
