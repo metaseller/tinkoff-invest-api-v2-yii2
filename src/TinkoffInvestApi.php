@@ -32,12 +32,20 @@ class TinkoffInvestApi extends TinkoffClientsFactory implements Configurable
     /**
      * @inheritDoc
      */
-    public function __construct($config = [])
+    public function __construct(array $config = [])
     {
         if (!empty($config)) {
             Yii::configure($this, $config);
         }
 
         parent::__construct($this->apiToken, $this->appName);
+    }
+
+    /**
+     * Создает компонент через конфигурационный конструктор Yii2.
+     */
+    public static function create(?string $api_token): self
+    {
+        return new static(['apiToken' => $api_token]);
     }
 }
